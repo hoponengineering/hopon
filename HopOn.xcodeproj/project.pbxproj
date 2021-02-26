@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D66C21D725E8C6E4000A1807 /* HopOnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C21D625E8C6E4000A1807 /* HopOnApp.swift */; };
+		D66C21D925E8C6E4000A1807 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C21D825E8C6E4000A1807 /* ContentView.swift */; };
+		D66C21DB25E8C6E5000A1807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D66C21DA25E8C6E5000A1807 /* Assets.xcassets */; };
+		D66C21DE25E8C6E5000A1807 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D66C21DD25E8C6E5000A1807 /* Preview Assets.xcassets */; };
+		D66C21E925E8C6E6000A1807 /* HopOnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C21E825E8C6E6000A1807 /* HopOnTests.swift */; };
+		D66C21F425E8C6E6000A1807 /* HopOnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C21F325E8C6E6000A1807 /* HopOnUITests.swift */; };
+		D66C220B25E8D272000A1807 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D66C220A25E8D272000A1807 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D66C21E525E8C6E5000A1807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D66C21CB25E8C6E4000A1807 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D66C21D225E8C6E4000A1807;
+			remoteInfo = HopOn;
+		};
+		D66C21F025E8C6E6000A1807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D66C21CB25E8C6E4000A1807 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D66C21D225E8C6E4000A1807;
+			remoteInfo = HopOn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D66C21D325E8C6E4000A1807 /* HopOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HopOn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66C21D625E8C6E4000A1807 /* HopOnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopOnApp.swift; sourceTree = "<group>"; };
+		D66C21D825E8C6E4000A1807 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D66C21DA25E8C6E5000A1807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D66C21DD25E8C6E5000A1807 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D66C21DF25E8C6E5000A1807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D66C21E425E8C6E5000A1807 /* HopOnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopOnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66C21E825E8C6E6000A1807 /* HopOnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopOnTests.swift; sourceTree = "<group>"; };
+		D66C21EA25E8C6E6000A1807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D66C21EF25E8C6E6000A1807 /* HopOnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopOnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66C21F325E8C6E6000A1807 /* HopOnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopOnUITests.swift; sourceTree = "<group>"; };
+		D66C21F525E8C6E6000A1807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D66C220A25E8D272000A1807 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D66C21D025E8C6E4000A1807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66C21E125E8C6E5000A1807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66C21EC25E8C6E6000A1807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D66C21CA25E8C6E4000A1807 = {
+			isa = PBXGroup;
+			children = (
+				D66C21D525E8C6E4000A1807 /* HopOn */,
+				D66C21E725E8C6E6000A1807 /* HopOnTests */,
+				D66C21F225E8C6E6000A1807 /* HopOnUITests */,
+				D66C21D425E8C6E4000A1807 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D66C21D425E8C6E4000A1807 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D66C21D325E8C6E4000A1807 /* HopOn.app */,
+				D66C21E425E8C6E5000A1807 /* HopOnTests.xctest */,
+				D66C21EF25E8C6E6000A1807 /* HopOnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D66C21D525E8C6E4000A1807 /* HopOn */ = {
+			isa = PBXGroup;
+			children = (
+				D66C21D625E8C6E4000A1807 /* HopOnApp.swift */,
+				D66C21D825E8C6E4000A1807 /* ContentView.swift */,
+				D66C21DA25E8C6E5000A1807 /* Assets.xcassets */,
+				D66C21DF25E8C6E5000A1807 /* Info.plist */,
+				D66C220A25E8D272000A1807 /* GoogleService-Info.plist */,
+				D66C21DC25E8C6E5000A1807 /* Preview Content */,
+			);
+			path = HopOn;
+			sourceTree = "<group>";
+		};
+		D66C21DC25E8C6E5000A1807 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D66C21DD25E8C6E5000A1807 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D66C21E725E8C6E6000A1807 /* HopOnTests */ = {
+			isa = PBXGroup;
+			children = (
+				D66C21E825E8C6E6000A1807 /* HopOnTests.swift */,
+				D66C21EA25E8C6E6000A1807 /* Info.plist */,
+			);
+			path = HopOnTests;
+			sourceTree = "<group>";
+		};
+		D66C21F225E8C6E6000A1807 /* HopOnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D66C21F325E8C6E6000A1807 /* HopOnUITests.swift */,
+				D66C21F525E8C6E6000A1807 /* Info.plist */,
+			);
+			path = HopOnUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D66C21D225E8C6E4000A1807 /* HopOn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D66C21F825E8C6E6000A1807 /* Build configuration list for PBXNativeTarget "HopOn" */;
+			buildPhases = (
+				D66C21CF25E8C6E4000A1807 /* Sources */,
+				D66C21D025E8C6E4000A1807 /* Frameworks */,
+				D66C21D125E8C6E4000A1807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HopOn;
+			productName = HopOn;
+			productReference = D66C21D325E8C6E4000A1807 /* HopOn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D66C21E325E8C6E5000A1807 /* HopOnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D66C21FB25E8C6E6000A1807 /* Build configuration list for PBXNativeTarget "HopOnTests" */;
+			buildPhases = (
+				D66C21E025E8C6E5000A1807 /* Sources */,
+				D66C21E125E8C6E5000A1807 /* Frameworks */,
+				D66C21E225E8C6E5000A1807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D66C21E625E8C6E5000A1807 /* PBXTargetDependency */,
+			);
+			name = HopOnTests;
+			productName = HopOnTests;
+			productReference = D66C21E425E8C6E5000A1807 /* HopOnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D66C21EE25E8C6E6000A1807 /* HopOnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D66C21FE25E8C6E6000A1807 /* Build configuration list for PBXNativeTarget "HopOnUITests" */;
+			buildPhases = (
+				D66C21EB25E8C6E6000A1807 /* Sources */,
+				D66C21EC25E8C6E6000A1807 /* Frameworks */,
+				D66C21ED25E8C6E6000A1807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D66C21F125E8C6E6000A1807 /* PBXTargetDependency */,
+			);
+			name = HopOnUITests;
+			productName = HopOnUITests;
+			productReference = D66C21EF25E8C6E6000A1807 /* HopOnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D66C21CB25E8C6E4000A1807 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D66C21D225E8C6E4000A1807 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D66C21E325E8C6E5000A1807 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D66C21D225E8C6E4000A1807;
+					};
+					D66C21EE25E8C6E6000A1807 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D66C21D225E8C6E4000A1807;
+					};
+				};
+			};
+			buildConfigurationList = D66C21CE25E8C6E4000A1807 /* Build configuration list for PBXProject "HopOn" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D66C21CA25E8C6E4000A1807;
+			productRefGroup = D66C21D425E8C6E4000A1807 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D66C21D225E8C6E4000A1807 /* HopOn */,
+				D66C21E325E8C6E5000A1807 /* HopOnTests */,
+				D66C21EE25E8C6E6000A1807 /* HopOnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D66C21D125E8C6E4000A1807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66C21DE25E8C6E5000A1807 /* Preview Assets.xcassets in Resources */,
+				D66C21DB25E8C6E5000A1807 /* Assets.xcassets in Resources */,
+				D66C220B25E8D272000A1807 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66C21E225E8C6E5000A1807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66C21ED25E8C6E6000A1807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D66C21CF25E8C6E4000A1807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66C21D925E8C6E4000A1807 /* ContentView.swift in Sources */,
+				D66C21D725E8C6E4000A1807 /* HopOnApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66C21E025E8C6E5000A1807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66C21E925E8C6E6000A1807 /* HopOnTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66C21EB25E8C6E6000A1807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66C21F425E8C6E6000A1807 /* HopOnUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D66C21E625E8C6E5000A1807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D66C21D225E8C6E4000A1807 /* HopOn */;
+			targetProxy = D66C21E525E8C6E5000A1807 /* PBXContainerItemProxy */;
+		};
+		D66C21F125E8C6E6000A1807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D66C21D225E8C6E4000A1807 /* HopOn */;
+			targetProxy = D66C21F025E8C6E6000A1807 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D66C21F625E8C6E6000A1807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D66C21F725E8C6E6000A1807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D66C21F925E8C6E6000A1807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HopOn/Preview Content\"";
+				DEVELOPMENT_TEAM = 3LJW36FM2J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HopOn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lhc.hopon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D66C21FA25E8C6E6000A1807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HopOn/Preview Content\"";
+				DEVELOPMENT_TEAM = 3LJW36FM2J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HopOn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lhc.hopon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D66C21FC25E8C6E6000A1807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3LJW36FM2J;
+				INFOPLIST_FILE = HopOnTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mama.HopOnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HopOn.app/HopOn";
+			};
+			name = Debug;
+		};
+		D66C21FD25E8C6E6000A1807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3LJW36FM2J;
+				INFOPLIST_FILE = HopOnTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mama.HopOnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HopOn.app/HopOn";
+			};
+			name = Release;
+		};
+		D66C21FF25E8C6E6000A1807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3LJW36FM2J;
+				INFOPLIST_FILE = HopOnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mama.HopOnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HopOn;
+			};
+			name = Debug;
+		};
+		D66C220025E8C6E6000A1807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3LJW36FM2J;
+				INFOPLIST_FILE = HopOnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mama.HopOnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HopOn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D66C21CE25E8C6E4000A1807 /* Build configuration list for PBXProject "HopOn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66C21F625E8C6E6000A1807 /* Debug */,
+				D66C21F725E8C6E6000A1807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D66C21F825E8C6E6000A1807 /* Build configuration list for PBXNativeTarget "HopOn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66C21F925E8C6E6000A1807 /* Debug */,
+				D66C21FA25E8C6E6000A1807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D66C21FB25E8C6E6000A1807 /* Build configuration list for PBXNativeTarget "HopOnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66C21FC25E8C6E6000A1807 /* Debug */,
+				D66C21FD25E8C6E6000A1807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D66C21FE25E8C6E6000A1807 /* Build configuration list for PBXNativeTarget "HopOnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66C21FF25E8C6E6000A1807 /* Debug */,
+				D66C220025E8C6E6000A1807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D66C21CB25E8C6E4000A1807 /* Project object */;
+}
