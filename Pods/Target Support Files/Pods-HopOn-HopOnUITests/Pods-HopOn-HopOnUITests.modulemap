@@ -1,0 +1,6 @@
+framework module Pods_HopOn_HopOnUITests {
+  umbrella header "Pods-HopOn-HopOnUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
