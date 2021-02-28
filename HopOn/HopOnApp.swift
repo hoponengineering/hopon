@@ -6,12 +6,19 @@
 //
 
 import SwiftUI
-
+import Firebase
 @main
 struct HopOnApp: App {
+    
+    init() {
+        FirebaseApp.configure()
+    }
     var body: some Scene {
+        
         WindowGroup {
+            
             ContentView(rating: Rating())
+            
         }
     }
 }

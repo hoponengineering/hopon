@@ -8,6 +8,7 @@ target 'HopOn' do
   # Pods for HopOn
 pod 'FirebaseCore'
 pod 'FirebaseFirestore'
+pod 'Firebase'
   target 'HopOnTests' do
     inherit! :search_paths
     # Pods for testing

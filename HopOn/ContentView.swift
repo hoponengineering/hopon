@@ -20,9 +20,9 @@ enum Score: Int, CaseIterable {
 //@TODO figure out firebase unique ID & date system
 struct Rating {
     var ratingId: String = ""
-    var time: Date
+    var time: String = ""
     var userId: String = ""
-    var drinkId: String = ""
+    var drink: Drink = Drink()
     var score: Score = .one
     var critique: String = ""
 }
@@ -32,19 +32,16 @@ struct Drink {
     var drink_id: String = ""
     var name: String = ""
     var drinkType: String = ""
-    
-    
 }
 
 struct ContentView: View {
     @State var rating: Rating
     var body: some View {
-        print(rating.drinkId)
         return VStack {
-            TextField("Beer Name", text: $rating.drinkId)
-            TextField("Beer Name", text: $rating.drinkId)
-            TextField("Beer Name", text: $rating.drinkId)
-            TextField("Beer Name", text: $rating.drinkId)
+            TextField("Drink Name", text: $rating.drink.name)
+            TextField("Description", text: $rating.critique)
+            TextField("score", value: $rating.score,formatter: NumberFormatter())
+                .keyboardType(UIKeyboardType.decimalPad)
             
         }
     }
